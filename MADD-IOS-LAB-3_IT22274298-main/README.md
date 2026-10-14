@@ -1527,45 +1527,5 @@ SE4041-Practical-03/
     └── 02-final-challenge.png
 ```
 
-Include completed guided activities and a working Student Management System. Screenshots should clearly show the exercise output and final challenge output. Use the GitHub Classroom repository supplied by your instructor.
-
-The final challenge's grade bands and `mark >= 50` filter are separate requirements from the original sheet. Preserve both: for example, a mark of 45 earns C under the stated grade bands but is excluded from the filtered array.
-
-## 24. Final Git Commands
-
-Run these commands from your local assignment repository:
-
-```bash
-git status
-git add README.md Exercise01.swift Exercise02.swift Exercise03.swift Exercise04.swift Exercise05.swift Exercise06.swift FinalChallenge.swift screenshots/
-git commit -m "Complete SE4041 Practical 03"
-git push
-git status
-```
-
-Open your GitHub Classroom repository and verify that your latest files and screenshots are visible.
-
-## 25. Submission Checklist — Provisional
-
-- [ ] All six exercise files are included and run independently.
-- [ ] Functions demonstrate parameters, return values, argument labels, and defaults.
-- [ ] Optional values are safely unwrapped using `guard let`.
-- [ ] A function returns multiple values using a tuple.
-- [ ] Closures demonstrate `map`, `filter`, and `reduce`.
-- [ ] Enums and raw values are demonstrated.
-- [ ] Structs demonstrate stored and computed properties.
-- [ ] Methods and a `mutating` method are demonstrated.
-- [ ] A class includes an initializer and a method.
-- [ ] Value and reference semantics are demonstrated and understood.
-- [ ] The knowledge-check questions have been reviewed.
-- [ ] The final challenge includes a grade enum and a Student struct.
-- [ ] The computed grade follows the specified grade bands.
-- [ ] At least five students are created and displayed.
-- [ ] The filtered student array uses `mark >= 50`.
-- [ ] Student names are extracted with `map`.
-- [ ] Marks are totaled with `reduce` and the class average is correct.
-- [ ] The provided five-student sample produces an average of 62.6.
-- [ ] Output screenshots are included.
-- [ ] Changes are committed, pushed, and visible on GitHub.
 
 
